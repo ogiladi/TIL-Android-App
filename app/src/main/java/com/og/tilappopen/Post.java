@@ -10,11 +10,6 @@ import java.util.List;
 
 
 
-/**
- * Created by ohodigiladi on 25/10/2017.
- */
-
-
 public class Post {
 
     String title;

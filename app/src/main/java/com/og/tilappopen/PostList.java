@@ -11,9 +11,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-/**
- * Created by ohodigiladi on 25/10/2017.
- */
 
 public class PostList {
 
