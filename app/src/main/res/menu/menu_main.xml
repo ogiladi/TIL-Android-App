@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.og.tilappopen.MainActivity">
+    <item
+        android:id="@+id/aboutThisApp"
+        android:orderInCategory="100"
+        android:title="About this App"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/aboutBackground"
+        android:orderInCategory="100"
+        android:title="About the background picture"
+        app:showAsAction="never" />
+</menu>
+
+
+
+
+
+
