@@ -1,4 +1,26 @@
 <resources>
     <string name="app_name">TIL APP Open</string>
     <string name="action_settings">Settings</string>
+
+    <!--Main / Post activity strings-->
+    <string name="title">Did You Know?</string>
+    <string name="subTitle">Learn something new at a click of a button</string>
+
+    <!--Button strings-->
+    <string name="somethingNew">Click Here</string>
+    <string name="somethingElse">Tell Me Something Else</string>
+
+    <string name="learnMore">Learn More</string>
+    <string name="redditPost">Reddit Post</string>
+
+    <string name="myWebsite">Developer\'s Website</string>
+    <string name="githubCode">Full code on Github</string>
+
+    <string name="backToMain">Go To Main Page</string>
+
+    <!--App info string-->
+    <string name="aboutThisApp">"This app takes the first 500 posts from Reddit's Today I Learned (TIL) subreddit and chooses randomly a post with at least 10 comments"</string>
+
+    <!--Post class strings-->
+
 </resources>
