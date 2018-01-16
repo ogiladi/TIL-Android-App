@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="titleSize">60sp</dimen>
+    <dimen name="subTitleSize">18sp</dimen>
+    <dimen name="textSize">24sp</dimen>
+    <dimen name="buttonTextSize">28sp</dimen>
+
+    <dimen name="marginFull">18dp</dimen>
+    <dimen name="marginHalf">9dp</dimen>
+
+    <dimen name="paddingButton">12dp</dimen>
+
+</resources>

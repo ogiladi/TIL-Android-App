@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.og.tilappopen.PostActivity"
+    tools:showIn="@layout/activity_post">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/raffael"
+            android:id="@+id/background"
+            tools:ignore="ContentDescription"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textLayout">
+
+
+            <View
+                android:id="@+id/centerShim"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:text="@string/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:alpha="0.7"
+                android:id="@+id/title"
+                tools:ignore="HardcodedText"
+                android:textSize="@dimen/titleSize"
+                android:textColor="@android:color/black"
+                android:textStyle="normal|bold"
+                android:textAlignment="center"
+                android:background="@android:color/background_light"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                />
+
+            <TextView
+                android:text="@string/subTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/subTitleSize"
+                android:textStyle="normal|bold"
+                android:id="@+id/subTitle"
+                android:textAlignment="center"
+                android:background="@android:color/background_light"
+                android:alpha="0.7"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/title"
+                android:layout_alignLeft="@+id/title"
+                android:layout_alignRight="@+id/title"
+                android:layout_alignStart="@+id/title"
+                android:layout_alignEnd="@+id/title"
+                android:paddingBottom="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginFull"
+                android:background="@android:color/background_light"
+                android:alpha="0.7"
+                android:padding="8dp"
+                android:id="@+id/postTitleText"
+                android:layout_below="@+id/subTitle"
+                android:textSize="@dimen/textSize"
+                android:textAlignment="center"
+                android:layout_alignLeft="@+id/title"
+                android:layout_alignRight="@+id/title"
+                android:layout_alignStart="@+id/title"
+                android:layout_alignEnd="@+id/title"
+                android:textColor="@android:color/black"
+                />
+
+            <Button
+                android:text="@string/somethingElse"
+                android:textSize="@dimen/buttonTextSize"
+                android:padding="@dimen/paddingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tellMeButton"
+                android:allowUndo="false"
+                android:alpha="0.7"
+                android:background="@color/colorPrimaryDark"
+                tools:ignore="NotSibling,UnusedAttribute"
+                android:layout_below="@+id/postTitleText"
+                android:layout_centerHorizontal="true"
+                android:layout_alignLeft="@+id/title"
+                android:layout_alignRight="@+id/title"
+                android:layout_alignStart="@+id/title"
+                android:layout_alignEnd="@+id/title"
+                android:layout_marginTop="@dimen/marginFull"
+                android:textColor="@android:color/background_light" />
+
+            <Button
+                android:text="@string/learnMore"
+                android:textSize="@dimen/buttonTextSize"
+                android:padding="@dimen/paddingButton"
+                android:alpha="0.7"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/learnMoreButton"
+                android:layout_below="@+id/tellMeButton"
+                android:layout_alignLeft="@+id/title"
+                android:layout_alignStart="@+id/title"
+                android:layout_marginTop="@dimen/marginFull"
+                android:layout_toLeftOf="@+id/centerShim"
+                android:layout_toStartOf="@+id/centerShim"
+                android:layout_marginRight="@dimen/marginHalf"
+                android:layout_marginEnd="@dimen/marginHalf"/>
+
+            <Button
+                android:text="@string/redditPost"
+                android:textSize="@dimen/buttonTextSize"
+                android:padding="@dimen/paddingButton"
+                android:alpha="0.7"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@android:color/background_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/redditPostButton"
+                android:layout_below="@+id/tellMeButton"
+                android:layout_alignRight="@+id/title"
+                android:layout_alignEnd="@+id/title"
+                android:layout_marginTop="@dimen/marginFull"
+                android:layout_toRightOf="@+id/centerShim"
+                android:layout_toEndOf="@+id/centerShim"
+                android:layout_marginLeft="@dimen/marginHalf"
+                android:layout_marginStart="@dimen/marginHalf"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
